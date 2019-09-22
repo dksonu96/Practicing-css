@@ -1,0 +1,24 @@
+img{
+    width: 500px;
+    height:300px;
+    margin:10px;
+    transition: all 1s;
+}
+.wildlife{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    color: rgb(219, 68, 41);
+    border-bottom: 2px solid rgba(226, 131, 43,0.5);
+    border-right: 2px solid rgba(226, 131, 43,0.5);
+    width: 400px;
+    height:100px;
+    text-align: center;
+}
+img:hover{
+    transform: scale(1.1);
+}
